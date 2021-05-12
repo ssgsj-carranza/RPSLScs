@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace RPSLScs
 {
-    public class Player
+    class Rules
     {
-        //public string name;
-        //public string choice;
-        public int roundsWon;
-
-        public Player()
+        public Rules()
         {
-            this.roundsWon = 0;
+
         }
+        public void ShowRules(List<Options> options)
     }
 }
